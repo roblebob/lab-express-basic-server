@@ -27,6 +27,9 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/home.html');
 });
 
+app.get('/blog', (req, res) => {
+  res.sendFile(__dirname + '/views/blog.html');
+});
 
 
 // START THE SERVER
